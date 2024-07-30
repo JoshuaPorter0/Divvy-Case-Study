@@ -5,7 +5,7 @@ Divvy is a bike-sharing company (partners with Lyft) which services the Chicago 
 
 They offer annual and casual memberships. From the insights gained, we will see how we can design a new marketing strategy to convert casual riders into annual members by using data-driven insights.
 For reference, prices have been included below. 
-![Divvy Prices](images/DivvyPrices.png)
+![Divvy Prices](Images/DivvyPrices.png)
 
 ## Ask
 ### How do annual members and casual riders use Divvy differently?
@@ -39,19 +39,19 @@ We now have 6,453,562 distinct rows for analysis
 
 ## Analyze
 ### Summary statistics and visualizations
-![Summary Stats](images/RideLength_SummaryStats.png)
+![Summary Stats](Images/RideLength_SummaryStats.png)
 (Values in minutes) On average casual members actually ride longer than members despite having to pay larger fees in general
 
-![Average Ride Length for each day of the week](images/AvgRideLength_DayofWeek.png/)
+![Average Ride Length for each day of the week](Images/AvgRideLength_DayofWeek.png/)
 The weekend had longer rides for both member groups, dipping in midweek and picking back up. Casual riders ride longer on average than members on any day of the week, but what about number of rides?
 
-![Number Of Rides for each day of the week](images/DivvyUsage_DayofWeek_JunetoJune.png)
+![Number Of Rides for each day of the week](Images/DivvyUsage_DayofWeek_JunetoJune.png)
 Here we see that despite members taking shorter trips, they account for a larger amount of rides on any day of the week, which could be attributed to members using them for shorter trips whereas members hop on the bicycles less but when they do, they ride for longer.
 
 
 The data follows the same pattern for a single month (June, 2024).
-![July 2024 Ride Length By day](images/RideLengthbyDayoftheWeek_June2024.png)
-![July 2024 Ride Count By day](images/RidersDayofWeek_June2024.png)
+![July 2024 Ride Length By day](Images/RideLengthbyDayoftheWeek_June2024.png)
+![July 2024 Ride Count By day](Images/RidersDayofWeek_June2024.png)
 
 ## Act
 * Members tend to use Divvy for regular short commutes/errands reflecting consistent usage patterns and short ride lengths
